@@ -15,7 +15,7 @@ exports[`timeline/LocalTrack with a memory track matches the snapshot of the mem
         class="timelineTrackNameButton"
         type="button"
       >
-        Memory
+        My Counter
       </button>
       <button
         class="timelineTrackCloseButton"
