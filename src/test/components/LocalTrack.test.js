@@ -123,7 +123,7 @@ describe('timeline/LocalTrack', function () {
   describe('with a memory track', function () {
     it('correctly renders the network label', function () {
       const { getLocalTrackLabel } = setupWithMemory();
-      expect(getLocalTrackLabel()).toHaveTextContent('Memory');
+      expect(getLocalTrackLabel()).toHaveTextContent('My Counter');
     });
 
     it('matches the snapshot of the memory track', () => {

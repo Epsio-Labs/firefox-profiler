@@ -988,9 +988,9 @@ export function getLocalTrackName(
     case 'network':
       return 'Network';
     case 'memory':
-      return 'Memory';
+      return counters[localTrack.counterIndex].name;
     case 'bandwidth':
-      return 'Bandwidth';
+      return counters[localTrack.counterIndex].name;
     case 'ipc':
       return `IPC — ${getFriendlyThreadName(
         threads,
